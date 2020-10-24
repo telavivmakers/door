@@ -1,8 +1,9 @@
 import random
 import matplotlib.pyplot as plt
+# missing: f3000, f370, f590, FA80, FC00  LET THE CHINESE FLOW
 
-alphabets = ['2600','260','2650','1F600','0370','0590','0750','0900','0A00','0A80','0C00','F15']
-lengths =  [150,   60,     60,     60,     50,50,50,50,50,50,50,50,50]
+alphabets = ['2600','260','2650','1F600','0900','0A80','F15']
+lengths =  [  100,   60,     60,     60,    50,     50,      50]
 vals = [int(a,base=16) for a in alphabets]
 
 fig1, ax1 =  plt.subplots()
