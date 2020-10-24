@@ -54,7 +54,7 @@ for hexval,n,fontname in alphabets:
         except RuntimeWarning as e:
             print(i,hex(i),'not avail',e)
     #    input('rtc')
-    break
+ #   break
 plt.savefig('door.ps', format='ps')
 plt.show()
-input('rtc')
+#input('rtc')
