@@ -20,14 +20,14 @@ def changefont(fontname):
 
 #('0590',10,'Arial')
 # start of unicode block, how many chars in alphabet, font (if needed)
-alphabets = [ ('4E70',1000,'PingFang'),#CHinese
+alphabets = [ ('4E70',100,'PingFang'),#CHinese
             ('FB1D',30,'Arial'), #hebrew
-             ('0679',70,'GeezaPro')]#arabic
-             # ('2600',100,None),
-             # ('260',60,None),
-             # ('2650',60,None),
-             # ('1F600',60,None),
-             # ('F15',10,None)]
+             ('0679',70,'GeezaPro'),#arabic
+             ('2600',100,None),
+             ('260',60,None),
+             ('2650',60,None),
+             ('1F600',60,None),
+             ('F15',10,None)]
 
 fig1, ax1 =  plt.subplots()
 #fig2, ax2 =  plt.subplots()
